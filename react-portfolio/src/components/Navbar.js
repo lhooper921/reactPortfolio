@@ -15,7 +15,7 @@ class NavBar extends Component {
 
 	render() {
 		return (
-			<div>
+			<div id="navbar">
 				<ul className="nav">
 					
 					<Link to="/">

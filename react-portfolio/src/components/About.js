@@ -19,12 +19,18 @@ class About extends Component {
 	   
 		 
 		<div class="row">
-			<div class="col s2"></div>
-			<div class="col s8" id="centered-about">
-		 
-			 <img class="portrait" src={portrait} alt="Portrait"/>
-			 <h1>About Me</h1>
-
+			<div class="col s0 m2"></div>
+			<div class="col s12 m8" id="centered-about">
+				
+		 <div class="row">
+			 <div class="col s0 m3">
+			 <img class="portrait" src={portrait} alt="Portrait" height= "200px" width = "200px"/>
+			 </div>
+			 <div class="col s12 m6">
+			 <h1>About Me</h1></div>
+			 </div>
+			 <div class="row">
+			 <div class="col s12">
 			 <p>
                             Before becoming a web developer, I spent 9 years as a professional chef and kitchen manager.
                             During my
@@ -37,7 +43,7 @@ class About extends Component {
                             Scarlet.
                            
                            
-                        </p>
+                        </p></div></div>
 						<div class="row">
 							<h3> Skills Overview</h3>
 							<div class="col m2"></div>						

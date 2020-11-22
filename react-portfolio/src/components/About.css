@@ -25,10 +25,10 @@
     transform: translate(-50%, -50%);
     text-align: center;
     background: rgb(255, 255, 255, .3);
-  }
+}
+   
   .portrait {
-    width: 100%;
-    max-width: 300px;
+   
     height: auto;
     padding: 15px;
     border-radius: 50%;
@@ -39,5 +39,26 @@
       margin: 15px;
   }
 
+ #connect{
+      margin:15px;
+
+  }
   
- 
+  @media screen and (max-width: 700px) {
+/* Centered text */
+#centered-about {
+    position: absolute;
+    top: 70%; 
+    left: 50%;
+    
+    text-align: center;
+    background: rgb(255, 255, 255, .3);
+  }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+    
+    .portrait {
+        display: none;
+       
+    }
+  }

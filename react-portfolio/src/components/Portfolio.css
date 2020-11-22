@@ -1,10 +1,6 @@
 
 /* Container needed to position the overlay. Adjust the width as needed */
-.container {
-    position: relative;
-    width: 100%;
-    max-width: 300px;
-  }
+/*  */
   
   /* Make the image to responsive */
   .hero-image {
@@ -17,15 +13,35 @@
   /* Centered text */
   #centered-about {
       position: absolute;
-      top: 55%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      /* top: 70%; */
+      /* left: 50%; */
+      /* transform: translate(-50%, -50%); */
       text-align: center;
       background: rgb(255, 255, 255, .3);
     }
+
+     /* Centered text */
+  #centered-about {
+    position: absolute;
+    /* top: 70%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+    background: rgb(255, 255, 255, .3);
+  }
+ 
    
   
     p {
         font-size: 18px;
         margin: 15px;
+        
     }
+    h6{
+        text-align: center;
+    }
+
+a{
+    margin: 20px;
+}
+

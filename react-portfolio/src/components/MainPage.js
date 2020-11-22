@@ -9,7 +9,7 @@ import NavBar from './NavBar';
 import About from './About';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
-
+import Footer from "./Footer";
 
 class MainPage extends Component {
 	componentDidMount() {
@@ -30,6 +30,7 @@ class MainPage extends Component {
 						<Route path="/Contact" component={Contact} />
 					</Switch>
 				</Router>
+				< Footer />
 			</div>
 		);
 	}
