@@ -1,17 +1,15 @@
 
 import './App.css';
-import Header from "./components/Header"
-import Navbar from "./components/Navbar"
+import MainPage from './components/MainPage';
+import 'materialize-css/dist/css/materialize.min.css';
+
 
 
 function App() {
   return (
     <div >
-      <Navbar />
-     <Header />
         
-        
-    
+ < MainPage />
       
     </div>
   );
