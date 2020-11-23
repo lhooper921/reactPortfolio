@@ -6,7 +6,7 @@ import M from 'materialize-css';
 import hero from "../images/hamza-shaikh-ouqIpxSXdPs-unsplash.jpg"
 
 
-class About extends Component {
+class Contact extends Component {
 	componentDidMount() {
 		// Auto initialize all the things!
 		M.AutoInit();
@@ -85,4 +85,4 @@ class About extends Component {
 	}
 }
 
-export default About;
+export default Contact;
