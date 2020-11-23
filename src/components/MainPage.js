@@ -25,10 +25,10 @@ class MainPage extends Component {
 					<NavBar />
 					<Switch>
 						<Route path="/" exact component={Home} />
-						<Route path="reactPortfolio/Home" exact component={Home} />
-						<Route path="reactPortfolio/About" component={About} />
-						<Route path="reactPortfolio/Portfolio" component={Portfolio} />
-						<Route path="reactPortfolio/Contact" component={Contact} />
+						
+						<Route path="/About" component={About} />
+						<Route path="/Portfolio" component={Portfolio} />
+						<Route path="/Contact" component={Contact} />
 					</Switch>
 				</Router>
 				< Footer />
