@@ -4,9 +4,6 @@ import './About.css';
 import M from 'materialize-css';
 
 import hero from "../images/hamza-shaikh-ouqIpxSXdPs-unsplash.jpg"
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
 
 
 class About extends Component {
@@ -61,13 +58,6 @@ class About extends Component {
     </form>
 	
  
-{/* <h3>Connect</h3>
-
-	<a class="btn waves-effect waves-light grey btn-large" id = "connect" href="https://www.linkedin.com/in/lauren-hooper-8157072a"
-                        target="_blank"><LinkedInIcon style={{ fontSize: 60 }}/></a>
-                    <a class="btn waves-effect waves-light grey btn-large" href="https://github.com/lhooper921" target="_blank"> <GitHubIcon style={{ fontSize: 50 }}/></a>
-                    <a class="btn waves-effect waves-light grey btn-large" href="https://twitter.com/LAHooper2019" target="_blank"> <TwitterIcon style={{ fontSize: 50 }} /></a>
-                  */}
 
 
 
