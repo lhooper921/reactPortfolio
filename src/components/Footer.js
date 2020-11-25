@@ -22,7 +22,7 @@ class NavBar extends Component {
 		return (
             <footer>        
             <div class="footer-copyright">
-              <div class="container">
+             
               © 2020 Lauren Hooper
               <a  href="https://www.linkedin.com/in/lauren-hooper-8157072a"
                         target="_blank"><LinkedInIcon />LinkedIn</a>
@@ -30,7 +30,7 @@ class NavBar extends Component {
                     <a href="https://twitter.com/LAHooper2019" target="_blank"><TwitterIcon /> Twitter</a>
                     <a href={resume}  download target="_blank"><GetAppIcon /> Download Resume</a>
                     <a href={resume}  target="_blank"><PageviewIcon /> View Resume</a>
-              </div>
+              
             </div>
           </footer>
 		);
