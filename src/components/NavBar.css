@@ -1,22 +1,16 @@
 
-#navbar{
-    background: rgba(250, 250, 250, 0.356);
+.nav-wrapper {
+    background-color: rgba(255, 0, 0, 0.0);
 }
 
-.nav{
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 15px;
-     background: rgba(250, 250, 250, 0);
-
-    color: black;
- 
-
-
+nav {
+   display:flex;
+   justify-content: space-evenly;
 }
 .navlink{
     color: black;
     font-size: x-large;
+}
+i{
+    color: black;
 }

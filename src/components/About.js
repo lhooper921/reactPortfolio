@@ -14,19 +14,17 @@ class About extends Component {
 
 	render() {
 		return (
-		<div class= "container-fluid">
-		<img class ="hero-image" src={hero} alt="hero" />
+			<div class="container" style={{  padding: 50, textAlign: "center", }}>
+
 	   
 		 
-		<div class="row">
-			<div class="col s0 m2"></div>
-			<div class="col s12 m8" id="centered-about">
+	
 				
 		 <div class="row">
-			 <div class="col s0 m3">
+			 <div class="col s0 l3">
 			 <img class="portrait" src={portrait} alt="Portrait" height= "200px" width = "200px"/>
 			 </div>
-			 <div class="col s12 m6">
+			 <div class="col s12 l6">
 			 <h1>About Me</h1></div>
 			 </div>
 			 <div class="row">
@@ -46,8 +44,8 @@ class About extends Component {
                         </p></div></div>
 						<div class="row">
 							<h3> Skills Overview</h3>
-							<div class="col m2"></div>						
-    <div class="col s12 m2">
+							<div class="col l2"></div>						
+    <div class="col s12 l2">
       <div class="card-panel grey ">
         <span class="white-text">
 			<h5>Front End</h5>
@@ -65,9 +63,9 @@ class About extends Component {
       </div>
 	  </div>
 
-	  <div class="col m1"></div>
+	  <div class="col l1"></div>
 
-	  <div class="col s12 m2">
+	  <div class="col s12 l2">
       <div class="card-panel grey ">
         <span class="white-text">
 		<h5>Back End</h5>
@@ -81,8 +79,8 @@ class About extends Component {
         </span>
       </div>
   </div>
-<div class="col m1"></div>
-  <div class="col s12 m2">
+<div class="col l1"></div>
+  <div class="col s12 l2">
       <div class="card-panel grey ">
         <span class="white-text"><h5>Soft Skills</h5>
 		<ul>
@@ -95,7 +93,7 @@ class About extends Component {
         </span>
       </div>
   </div>
-  <div class="col m2"></div>  
+  <div class="col l2"></div>  
 	  </div>
            
 						
@@ -104,11 +102,9 @@ class About extends Component {
 			 </div>
 			 
 
-			 <div class="col s2"></div>
-	   
-		</div>
 		
-		</div>
+	   
+	
 
 		
 		)}

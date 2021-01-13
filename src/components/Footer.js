@@ -20,7 +20,7 @@ class NavBar extends Component {
 
 	render() {
 		return (
-            <footer>        
+            <footer className="col m12 hide-on-med-and-down">        
             <div class="footer-copyright">
              
               © 2020 Lauren Hooper
