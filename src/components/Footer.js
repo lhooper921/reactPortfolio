@@ -1,40 +1,54 @@
 import React, { Component } from 'react';
-
-
 // Import Materialize
 import M from 'materialize-css';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import resume from "../images/LHResume2020.pdf";
+import resume from "../images/laurenHooperResume2021.pdf";
 
-import GetAppIcon from '@material-ui/icons/GetApp';
-import PageviewIcon from '@material-ui/icons/Pageview';
-import './Footer.css';
 
 class NavBar extends Component {
-	componentDidMount() {
-		// Auto initialize all the things!
-		M.AutoInit();
-	}
+  componentDidMount() {
+    // Auto initialize all the things!
+    M.AutoInit();
+  }
 
-	render() {
-		return (
-            <footer className="col m12 hide-on-med-and-down">        
-            <div class="footer-copyright">
-             
-              © 2020 Lauren Hooper
-              <a  href="https://www.linkedin.com/in/lauren-hooper-8157072a"
-                        target="_blank"><LinkedInIcon />LinkedIn</a>
-                    <a  href="https://github.com/lhooper921" target="_blank"><GitHubIcon /> Github</a>
-                    <a href="https://twitter.com/LAHooper2019" target="_blank"><TwitterIcon /> Twitter</a>
-                    <a href={resume}  download target="_blank"><GetAppIcon /> Download Resume</a>
-                    <a href={resume}  target="_blank"><PageviewIcon /> View Resume</a>
-              
-            </div>
-          </footer>
-		);
-	}
+  render() {
+    return (
+      <footer class="footer-copyright white hide-on-med-and-down ">
+        <div class='container'>
+
+          © 2020 Lauren Hooper
+              <a class="waves-effect waves-light btn grey" href="https://www.linkedin.com/in/laurenalysehooper"
+            target="_blank"><i style={{ color: 'white'
+            }} class="fab fa-linkedin"></i> LinkedIn</a>
+
+          <a class="waves-effect waves-light btn grey" href="https://github.com/lhooper921"
+            target="_blank"><i style={{ color: 'white'
+          }} class="fab fa-github"></i> GitHub</a>
+
+          <a class="waves-effect waves-light btn grey" href="https://twitter.com/Lauren__Hooper"
+            target="_blank"><i  style={{ color: 'white'
+          }} class="fab fa-twitter-square"></i> Twitter</a>
+
+          <a class="waves-effect waves-light btn grey" href={resume} target="_blank"><i style={{ color: 'white'
+            }} class="fas fa-external-link-alt"></i> View Resume</a>
+
+          <a class="waves-effect waves-light btn grey" href={resume} download target="_blank"><i style={{ color: 'white'
+            }} class="fas fa-file-download"></i> Download Resume</a>
+
+
+
+
+
+
+
+        </div>
+
+      </footer>
+
+
+
+
+    );
+  }
 }
 
 export default NavBar;

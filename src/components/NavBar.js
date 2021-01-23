@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 // Import Materialize
 import M from 'materialize-css';
-import logo from '../images/logo.png'
+
 
 import './NavBar.css';
 
@@ -17,8 +17,10 @@ class NavBar extends Component {
 		return (
 			<div>
 			<nav>
-			<div className="nav-wrapper valign-wrapper white">
+			<div className="nav-wrapper white">
 			
+			<a id="logo" style={{ color: 'white', backgroundColor: 'darkgray',
+            }}href="#" class="brand-logo">Lauren Hooper</a>
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger">
 					<i class="material-icons">menu</i>
 				</a>

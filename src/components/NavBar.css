@@ -1,15 +1,26 @@
-
+#logo{
+    font-family: 'Poiret One', cursive;
+    text-align:center;
+    padding: 10px;
+    font-size: 34px;
+}
 .nav-wrapper {
-    background-color: rgba(255, 0, 0, 0.0);
+    background-color: rgba(209, 205, 205, 0.911);
 }
 
 nav {
    display:flex;
    justify-content: space-evenly;
+   background-color:white;
 }
 .navlink{
     color: black;
     font-size: x-large;
+    /* margin-right: 300px; */
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
 }
 i{
     color: black;
