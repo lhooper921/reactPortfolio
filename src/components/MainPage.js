@@ -24,11 +24,11 @@ class MainPage extends Component {
 				<Router>
 					<NavBar />
 					<Switch>
-						<Route path="/reactPortfolio/#" exact component={Home} />
-						<Route path="/reactPortfolio/#/Home" component={Home} />
-						<Route path="/reactPortfolio/#/About" component={About} />
-						<Route path="/reactPortfolio/#/Portfolio" component={Portfolio} />
-						<Route path="/reactPortfolio/#/Contact" component={Contact} />
+						<Route path="/#" exact component={Home} />
+						<Route path="/#/Home" component={Home} />
+						<Route path="/#/About" component={About} />
+						<Route path="/#/Portfolio" component={Portfolio} />
+						<Route path="/#/Contact" component={Contact} />
 					</Switch>
 				</Router>
 				< Footer />
