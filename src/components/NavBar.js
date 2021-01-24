@@ -26,22 +26,22 @@ class NavBar extends Component {
 				</a>
 				<ul id="nav-mobile" className="right hide-on-med-and-down ">
 				<li>
-				<Link to="/reactPortfolio/Home" className="navlink">
+				<Link to="/reactPortfolio/#/Home" className="navlink">
 					Home
 				</Link>
 			</li>
 			<li>
-				<Link to="/reactPortfolio/About" className="navlink">
+				<Link to="/reactPortfolio/#/About" className="navlink">
 					About
 				</Link>
 			</li>
 			<li>
-				<Link to="/reactPortfolio/Portfolio" className="navlink">
+				<Link to="/reactPortfolio/#/Portfolio" className="navlink">
 					Portfolio
 				</Link>
 			</li>
 			<li>
-				<Link to="/reactPortfolio/Contact" className="navlink">
+				<Link to="/reactPortfolio/#/Contact" className="navlink">
 					Contact
 				</Link>
 			</li>
@@ -52,22 +52,22 @@ class NavBar extends Component {
 
 		<ul class="sidenav" id="mobile-demo">
 			<li>
-				<Link to="/reactPortfolio/Home" className="navlink">
+				<Link to="/reactPortfolio/#/Home" className="navlink">
 					Home
 				</Link>
 			</li>
 			<li>
-				<Link to="/reactPortfolio/About" className="navlink">
+				<Link to="/reactPortfolio/#/About" className="navlink">
 					About
 				</Link>
 			</li>
 			<li>
-				<Link to="/reactPortfolio/Portfolio" className="navlink">
+				<Link to="/reactPortfolio/#/Portfolio" className="navlink">
 					Portfolio
 				</Link>
 			</li>
 			<li>
-				<Link to="/reactPortfolio/Contact" className="navlink">
+				<Link to="/reactPortfolio/#/Contact" className="navlink">
 					Contact
 				</Link>
 			</li>
