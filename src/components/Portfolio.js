@@ -31,7 +31,7 @@ class Portfolio extends Component {
 		return (
 
 			
-			<div style={{ padding: 50, textAlign: "center", }}>
+			<div style={{ padding: 0, textAlign: "center", }}>
 
 
 

@@ -41,7 +41,7 @@ class Home extends Component {
                                                         color: 'white'
                                                 }} class="fas fa-file-download"></i> Download Resume</a>
 
-<div class="row">
+<div class="row hide-on-med-and-down" id="skills">
 							<h3> Skills Overview</h3>
 							<div class="col l2"></div>						
     <div class="col s12 l2">

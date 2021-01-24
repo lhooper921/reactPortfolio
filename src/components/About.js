@@ -17,7 +17,7 @@ class About extends Component {
 
 	render() {
 		return (
-			<div class="container" style={{ padding: 50, textAlign: "center", }}>
+			<div class="container" style={{ padding: 0, textAlign: "center", }}>
 
 
 
@@ -40,7 +40,7 @@ class About extends Component {
 
 						</div>
 
-					<div class="col m12 l3" style={{ textAlign: "center", }}>   <img src={beach} height="350px" width="350px"></img>
+					<div class="col m12 l3" style={{ textAlign: "center"}}>   <img src={beach} height="350px" width="350px"></img>
 <img src={ucsd}  width="350px" style={{ padding: "35px" }} />
 					</div>
 
@@ -50,12 +50,12 @@ class About extends Component {
 
 				<div class="row">
 
-					<div class="col m12 l3"> <img src={portrait} height="350px" width="350px">
+					<div class="col m12 l3" style={{ textAlign: "center"}}> <img style={{  marginLeft:'auto', marginRight:'auto'}} src={portrait} height="350px" width="350px">
 
 					</img>
-					<img src={culinary} width="350px" style={{ padding: "35px",  }} />
+					<img src={culinary}  width="350px" style={{ padding: "35px",  }} />
 					</div>
-					<div class="col m0 l1" style={{ textAlign: "right", }}></div>
+					<div class="col l1" style={{ textAlign: "right", }}></div>
 
 					<div class="col m12 l7" style={{ textAlign: "center", }}>
 						<p ><h3 style={{ textAlign: "center", }}>Background</h3>
@@ -66,7 +66,59 @@ class About extends Component {
 					</div>
 					
 				</div>
+				<div class="row hide-on-med-and-up" id="skills">
+							<h3> Skills Overview</h3>
+							<div class="col l2"></div>						
+    <div class="col s12 l2">
+      <div class="card-panel grey " style={{ opacity: '82%'}}>
+        <span class="white-text">
+			<h5>Front End</h5>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>Javascript</li>
+			<li>JQuery</li>
+			<li>React</li>
+			<li>Git/ Version Control</li>
+			<li>Command Line</li>
+				
+		</ul>
+        </span>
+      </div>
+	  </div>
 
+	  <div class="col l1"></div>
+
+	  <div class="col s12 l2">
+      <div class="card-panel grey" style={{ opacity: '82%'}}>
+        <span class="white-text">
+		<h5>Back End</h5>
+		<ul>
+			<li>Node.js</li>
+			<li>Express.js</li>
+			<li>HTTP and REST</li>
+			<li>SQL</li>
+			<li>MongoDB</li>				
+		</ul>
+        </span>
+      </div>
+  </div>
+<div class="col l1"></div>
+  <div class="col s12 l2">
+      <div class="card-panel grey" id="skillCard" style={{ opacity: '82%'}}>
+        <span class="white-text"><h5>Soft Skills</h5>
+		<ul>
+			<li>Team Development</li>
+			<li>Rapid Problem Solving</li>
+			<li>Conflict Resolution</li>
+			<li>Time Management</li>
+			<li>Clear Communication</li>				
+		</ul>
+        </span>
+      </div>
+  </div>
+  <div class="col l2"></div>  
+	  </div>
 			
 
 			</div>
