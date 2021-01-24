@@ -19,8 +19,9 @@ body{
 h5{
     font-family: 'Poiret One', cursive;
     padding: 10px;
-    background-color: rgb(158,158,158) ;
-    color:white;
+    background-color: rgb(158,158,158, 0.82) ; 
+     color:white;
+   
   
 }
 a{

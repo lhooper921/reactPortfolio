@@ -45,7 +45,7 @@ class Home extends Component {
 							<h3> Skills Overview</h3>
 							<div class="col l2"></div>						
     <div class="col s12 l2">
-      <div class="card-panel grey ">
+      <div class="card-panel grey " style={{ opacity: '82%'}}>
         <span class="white-text">
 			<h5>Front End</h5>
 		<ul>
@@ -65,7 +65,7 @@ class Home extends Component {
 	  <div class="col l1"></div>
 
 	  <div class="col s12 l2">
-      <div class="card-panel grey ">
+      <div class="card-panel grey" style={{ opacity: '82%'}}>
         <span class="white-text">
 		<h5>Back End</h5>
 		<ul>
@@ -80,7 +80,7 @@ class Home extends Component {
   </div>
 <div class="col l1"></div>
   <div class="col s12 l2">
-      <div class="card-panel grey ">
+      <div class="card-panel grey" id="skillCard" style={{ opacity: '82%'}}>
         <span class="white-text"><h5>Soft Skills</h5>
 		<ul>
 			<li>Team Development</li>

@@ -19,7 +19,7 @@ class NavBar extends Component {
 			<nav>
 			<div className="nav-wrapper white">
 			
-			<a id="logo" style={{ color: 'white', backgroundColor: 'darkgray',
+			<a id="logo" style={{ color: 'white', backgroundColor: 'darkgray',  opacity: '80%',
             }}href="#" class="brand-logo">Lauren Hooper</a>
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger">
 					<i class="material-icons">menu</i>
