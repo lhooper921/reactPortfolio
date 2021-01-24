@@ -76,23 +76,7 @@ class NavBar extends Component {
 		
 		</ul>
 		</div>
-			// <div id="navbar">
-			// 	<ul className="nav">
-					
-			// 		<Link to="/Home">
-			// 			<li className="navlink">Home </li>
-			// 		</Link>
-			// 		<Link to="/About">
-			// 			<li className="navlink">About </li>
-			// 		</Link>
-			// 		<Link to="/Portfolio">
-			// 			<li className="navlink">Portfolio </li>
-			// 		</Link>
-			// 		<Link to="/Contact">
-			// 			<li className="navlink">Contact</li>
-			// 		</Link>
-			// 	</ul>
-			// </div>
+			
 		);
 	}
 }
