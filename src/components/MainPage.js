@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 // Import Materialize
 import M from 'materialize-css';
@@ -21,16 +21,16 @@ class MainPage extends Component {
 		return (
 			<div >
 				
-				<Router>
+				<HashRouter>
 					<NavBar />
 					<Switch>
 						<Route path="/reactPortfolio/" exact component={Home} />
-						<Route path="/reactPortfolio/Home" component={Home} />
-						<Route path="/reactPortfolio/About" component={About} />
-						<Route path="/reactPortfolio/Portfolio" component={Portfolio} />
-						<Route path="/reactPortfolio/Contact" component={Contact} />
+						<Route path="/reactPortfolio/#/Home" component={Home} />
+						<Route path="/reactPortfolio/#/About" component={About} />
+						<Route path="/reactPortfolio/#/Portfolio" component={Portfolio} />
+						<Route path="/reactPortfolio/#/Contact" component={Contact} />
 					</Switch>
-				</Router>
+				</HashRouter>
 				< Footer />
 			</div>
 		);
